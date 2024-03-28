@@ -25,7 +25,7 @@ async function getRandomFoodDish() {
         
         imgElement.src = imageUrl;
         imgElement.alt = 'Random Food Dish';
-        imgElement.className="container-fluid"
+        imgElement.className="container"
         imgElement.style.width="800px"
         imgElement.style.height="650px"
         document.body.append(imgElement)
